@@ -18,10 +18,7 @@ module.exports = {
     await helpers.waitAndClick(shared.taskData.elem.passwordInput);
     await helpers.waitAndSetValue(shared.taskData.elem.passwordInput, password);
 
-    // let selector2 = shared.taskData.elem.passwordInput;
-    // await driver.click(selector2).keys(password);
     await helpers.waitAndClick(shared.taskData.elem.loginBtn);
-    // await driver.click(shared.taskData.elem.loginBtn);
     log.info('Login button is clicked');
   },
 
