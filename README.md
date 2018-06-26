@@ -1,6 +1,6 @@
 [![STAT](https://nodei.co/npm/tray.io-cucumber-js.png?download=true)](https://nodei.co/npm/tray.io-cucumber-js/)
 
-# tray.io-cucumber-js [![Run Status](https://api.shippable.com/projects/585832b28171491100bb123f/badge?branch=master)](https://app.shippable.com/projects/585832b28171491100bb123f) [![Build Status](https://travis-ci.org/larryg01/tray.io-cucumber-js.svg?branch=master)](https://travis-ci.org/larryg01/tray.io-cucumber-js)
+# tray.io-cucumber-js [![Run Status](https://api.shippable.com/projects/585832b28171491100bb123f/badge?branch=master)](https://app.shippable.com/projects/585832b28171491100bb123f) [![Build Status](https://travis-ci.org/fsafaq/tray.io-cucumber-js.svg?branch=master)](https://travis-ci.org/fsafaq/tray.io-cucumber-js)
 
   A platform independent debuggable BDD Javascript testing framework. It's simple, easy to use and not dependant to
   any other tool or library. It's built with [nodeJs](https://nodejs.org/en/), [webdriver.io (the Selenium 2.0
@@ -11,9 +11,9 @@
 ## Installation
 
 ```bash
-git-clone-ssh: git@github.com:larryg01/tray.io-cucumber-js.git
-git-clone-http: https://github.com/larryg01/tray.io-cucumber-js.git
-download: https://github.com/larryg01/tray.io-cucumber-js/archive/development.zip
+git-clone-ssh: git@github.com:fsafaq/tray.io-cucumber-js.git
+git-clone-http: https://github.com/fsafaq/tray.io-cucumber-js.git
+download: https://github.com/fsafaq/tray.io-cucumber-js/archive/development.zip
 npm i tray.io-cucumber-js
 
 
