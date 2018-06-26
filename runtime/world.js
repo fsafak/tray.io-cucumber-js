@@ -39,7 +39,7 @@ global.request = rp;
  * Adding logging
  */
 let logger = require('./logger');
-global.log = logger.klassiLog();
+global.log = logger.Log();
 
 
 /**
@@ -282,7 +282,7 @@ function World() {
        * send email with the report to stakeholders after test run
        */
       if (program.email) {
-        return helpers.klassiEmail();
+        return helpers.Email();
       }
     }
   });

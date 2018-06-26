@@ -9,7 +9,7 @@ const path = require('path'),
 
 module.exports = {
 
-  klassiLog: function () {
+  Log: function () {
     let MyDate = new Date();
     let date;
 

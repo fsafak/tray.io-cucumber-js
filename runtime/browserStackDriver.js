@@ -1,5 +1,5 @@
 /**
- * Tray.io Automated Testing Tool
+ * // Tray.io Automated Testing Tool
  */
 'use strict';
 

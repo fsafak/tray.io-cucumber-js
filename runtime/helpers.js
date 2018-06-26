@@ -33,7 +33,6 @@ module.exports = {
         });
     },
 
-
     /**
      * Images of each page for regression testing
      * @returns {*|{screenshotRoot, failedComparisonsRoot, misMatchTolerance, screenWidth}}
@@ -43,18 +42,6 @@ module.exports = {
             name: '',
             elem: ''
         })
-    },
-
-    scrollToItem: function (item) {
-    var diff=(item.offsetTop-window.scrollY)/8
-    if (Math.abs(diff)>1) {
-        window.scrollTo(0, (window.scrollY+diff))
-        clearTimeout(window._TO)
-        window._TO=setTimeout(scrollToItem, 30, item)
-    } else {
-        window.scrollTo(0, item.offsetTop)
-
-        }
     },
 
     /**
@@ -309,8 +296,8 @@ module.exports = {
     /**
      *   Sends an Email to the concerned users with the log and the test report
      */
-    klassiEmail: function (err) {
-      let mailer = require('../runtime/mailer').klassiSendMail();
+    Email: function (err) {
+      let mailer = require('../runtime/mailer').SendMail();
       if(err) {
         log.info('This is a Email system error: ' + err.stack);
         throw err;
