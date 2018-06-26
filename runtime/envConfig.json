@@ -1,0 +1,11 @@
+{
+  "Details" : {
+    "Name": "Tray.io Automated Testing Tool",
+  },
+
+  "url" : {
+    "api_base_url": "http://httpbin.org/"
+  }
+
+
+}

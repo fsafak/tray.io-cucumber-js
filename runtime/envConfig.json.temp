@@ -1,0 +1,8 @@
+{
+  "Details" : {
+    "Name": "Tray.io Automated Testing Tool",
+  },
+
+  "base_url": "<base url holder>",
+  "api_base_url": "<base api url holder>",
+}
