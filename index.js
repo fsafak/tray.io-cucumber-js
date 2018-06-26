@@ -1,5 +1,5 @@
 /**
- * Tary.io Automated Testing Tool
+ * Tray.io Automated Testing Tool
  */
 'use strict';
 
@@ -37,7 +37,7 @@ function parseRemoteArguments(argumentString) {
  * @type {string}
  */
 global.reportName = 'Tray.io Automated Test Report';
-global.projectName = 'Tray.io';
+global.projectName = 'Tray.io Automation Test Project';
 
 
 /**
