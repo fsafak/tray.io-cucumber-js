@@ -32,7 +32,7 @@ selenium-standalone start
 # run 'npm install' in a terminal window from within the project folder
 node ./node_modules/tray.io-cucumber-js/index.js -s ./step-definitions
 or
-node index.js -d -t @search
+node index.js -d -t @task
 ```
 
 ### Options
